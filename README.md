@@ -5,6 +5,8 @@
 du  
 df  
 smartctl  
+lsblk  
+blkid  
 /proc/mdstat  
 
 #### Процессор и память
@@ -40,7 +42,7 @@ tcpdump
 
 #### Логи  
 
-/var/log  
-/var/log/syslog  
 dmesg  
 journalctl  
+/var/log  
+/var/log/syslog   
