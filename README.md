@@ -122,7 +122,7 @@ init 3
 
 1. Загрузка с LiveCD
 2. Монтирование корневой файловой системы установленной ОС к корневой файловой системе LiveCD.
-3. С помощью команд `journalctl -D /mnt/hd/var/log/journal` или `journalctl --directory=/mnt/hd/var/log/journal` можно посмотреть логи хостовой ОС.
+3. Смотрим логи хостовой ОС `journalctl -D /mnt/hd/var/log/journal` или `journalctl --directory=/mnt/hd/var/log/journal`.
 4. fsck — проверка файловых систем
 
 **Восстановления загрузчика Linux**
