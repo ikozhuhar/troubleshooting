@@ -14,13 +14,14 @@
 
 
 ## [[⬆]](#toc) <a name='1'>Диски</a>
-
-du  
-df  
+```
+sudo du -sch /*
+sudo df -h
+sudo lsblk -o +name,fstype,uuid
+sudo blkid
 smartctl  
-lsblk  
-blkid  
-/proc/mdstat  
+/proc/mdstat
+```
 
 ## [[⬆]](#toc) <a name='2'>Процессор и память</a>
 
