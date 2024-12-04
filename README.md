@@ -42,7 +42,7 @@ tcpdump
 
 #### Логи  
 
-dmesg  
 journalctl  
+/var/log/dmesg  
 /var/log  
 /var/log/syslog   
