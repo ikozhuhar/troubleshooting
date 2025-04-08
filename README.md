@@ -53,6 +53,7 @@ nslookup
 curl  
 curl telnet  
 tcpdump  
+ethtool
 
 ## [[⬆]](#toc) <a name='5'>Логи</a>
 
